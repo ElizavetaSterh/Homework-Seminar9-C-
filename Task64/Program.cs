@@ -15,7 +15,8 @@ int GetInput(string text)
 }
 int n = GetInput("Введите число: ");
 int start = 1;  
-Console.WriteLine($"{Factorial(n , start )}");
+Console.WriteLine($"N = {n} -> {Factorial(n, start)}");
+
 
 
 
